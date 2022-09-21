@@ -1,0 +1,17 @@
+.dropdownitem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    gap: .5rem;
+
+    width: 100%;
+    color: var(--grey-2);
+    font: var(--body2-regular);
+    cursor: pointer;
+
+}
+
+.dropdownitem:hover{
+    background: var(--button-bg);
+}
